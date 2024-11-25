@@ -1,15 +1,13 @@
 'use client'
 import * as React from 'react';
-import Stepper from '@mui/material/Stepper';
-import Step from '@mui/material/Step';
-import StepLabel from '@mui/material/StepLabel';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+
+
 import Step1 from '../components/Step1/Step1';
 import Step2 from '../components/Step2/Step2';
 import Step3 from '../components/Step3/Step3';
 import Step4 from '../components/Step4/Step4';
 import useLocalStorage from '../../services/localStorage';
+import { Button, Step, StepLabel, Stepper, Typography } from '../../../../node_modules/@mui/material/index';
 
 const steps = ['Personal Information', 'Country and City', 'Payment', 'Summary'];
 

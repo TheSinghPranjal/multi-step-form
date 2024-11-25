@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 
-
+import './Step1.css';
 import useLocalStorageForStep1 from '../../../services/localStorageStep1';
 import { TextField } from '@mui/material';
 
